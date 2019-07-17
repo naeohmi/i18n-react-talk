@@ -14,7 +14,8 @@ const Example = props => {
 
   return (
     <section>
-      <p>
+      <div className="component">
+        <i>Click Count Example:</i>
         <FormattedMessage
           id="components.Example.click"
           defaultMessage={`
@@ -28,15 +29,15 @@ const Example = props => {
           `}
           values={{ count }}
         />
-      </p>
-      <button onClick={() => setCount(count + 1)}>
+      <button onClick={() => setCount(count + 1)} className="click-button">
         <FormattedMessage
           id="components.Example.button"
           defaultMessage={`Click me`}
         />
       </button>
-      <Counter />
+      </div>
       <DisplayDate date={date} />
+      <Counter />
     </section>
   );
 };

@@ -19,7 +19,8 @@ const Counter = props => {
   const [state, dispatch] = useReducer(reducer, initialState);
   const { counter } = state;
   return (
-    <p>
+    <div className="component">
+      <i>Counter:</i>
       <FormattedMessage
         id="components.Counter.count"
         defaultMessage={`
@@ -31,7 +32,7 @@ const Counter = props => {
       <br />
       <button onClick={() => dispatch({ type: "increment" })}>+</button>
       <button onClick={() => dispatch({ type: "decrement" })}>-</button>
-    </p>
+    </div>
   );
 };
 

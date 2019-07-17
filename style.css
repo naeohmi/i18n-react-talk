@@ -1,0 +1,24 @@
+#root {
+  font-size: x-large;
+  font-family: Lato;
+  text-align: center;
+}
+.component {
+  padding: 20px;
+  border-bottom: 1px solid black;
+}
+button {
+  font-size: large;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.click-button {
+  display: block;
+  margin: 10px auto;
+}
+i {
+  display: block;
+  font-size: small;
+  color: purple;
+}

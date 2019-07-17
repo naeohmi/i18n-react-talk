@@ -4,7 +4,8 @@ import { injectIntl, FormattedRelative } from "react-intl";
 
 const DisplayDate = injectIntl(({ date, intl }) => {
   return (
-    <div>
+    <div className="component">
+      <i>Display Date and Time:</i>
       <p>{intl.formatDate(date)}</p>
       <p>
         <FormattedRelative value={date} />
