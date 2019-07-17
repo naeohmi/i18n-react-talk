@@ -21,6 +21,7 @@ const Example = props => {
             You clicked:
             {count, number}
             {count, plural,
+              =0 {0 times}
               one {time}
               other {times}
             }
