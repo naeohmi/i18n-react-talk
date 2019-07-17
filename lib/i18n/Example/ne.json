@@ -1,0 +1,5 @@
+{
+    "components.Example.button": "मलाई क्लिक गर्नुहोस्",
+    "components.Example.click": "तपाईँले {count} पटक क्लिक गर्नुभयो",
+    "components.Counter.count": "काउन्टर: {counter}"
+}

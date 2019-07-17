@@ -1,0 +1,5 @@
+{
+    "components.Example.button": "Klick mich",
+    "components.Example.click": "Sie haben {count} mal geklickt",
+    "components.Counter.count": "Zähler: {counter}"
+}
