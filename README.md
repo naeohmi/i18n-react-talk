@@ -1,3 +1,5 @@
-# i18n-react-talk
+# ReactWeekNYC Talk Demo App 
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/i18n-react-talk)
+[About ReactWeekNYC](https://reactweek.nyc)
+
+[See Live:](https://stackblitz.com/edit/i18n-react-talk)

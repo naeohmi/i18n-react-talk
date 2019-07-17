@@ -1,4 +1,4 @@
-// From: https://reactjs.org/docs/hooks-reference.html#usecontext
+//https://reactjs.org/docs/hooks-reference.html#usecontext
 import React, { useReducer } from "react";
 import { FormattedMessage } from "react-intl";
 

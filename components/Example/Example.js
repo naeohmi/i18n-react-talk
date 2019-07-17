@@ -1,4 +1,4 @@
-// From: https://reactjs.org/docs/hooks-effect.html
+//https://reactjs.org/docs/hooks-effect.html
 import React, { useState, useEffect } from "react";
 import { FormattedMessage } from "react-intl";
 import Counter from '../Counter';
