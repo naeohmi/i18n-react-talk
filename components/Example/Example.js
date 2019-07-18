@@ -12,6 +12,10 @@ const Example = props => {
     setDate(new Date().getTime());
   });
 
+  const handleClick = () => {
+    return setCount(count + 1);
+  }
+
   return (
     <section>
       <div className="component">
@@ -29,14 +33,16 @@ const Example = props => {
           `}
           values={{ count }}
         />
-      <button onClick={() => setCount(count + 1)} className="click-button">
+      <button onClick={handleClick} className="click-button">
         <FormattedMessage
           id="components.Example.button"
           defaultMessage={`Click me`}
         />
       </button>
       </div>
-      <DisplayDate date={date} />
+      <DisplayDate 
+        date={date}
+      />
       <Counter />
     </section>
   );
